@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main-container {
+  display: grid;
+  place-items: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button-container button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.slider-container {
+  margin: 40px 0;
+  background-color: azure;
+  width: 500px;
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  color: #000;
+  display: grid;
+  place-content: center;
+}
+
+.slider-container h3 {
+  font-size: 2.2em;
+  margin: 0;
+}
+
+.slider-container p {
+  font-size: 1.2em;
+  margin: 0;
+}
